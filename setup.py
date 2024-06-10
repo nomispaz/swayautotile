@@ -12,7 +12,7 @@ if __name__ == "__main__":
         long_description = '',
         license = "MIT license",
         packages = find_packages(exclude=["test"]),  # Don't include test directory in binary distribution
-        install_requires = i3ipc,
+        install_requires = python-i3ipc,
         classifiers=[
             "Programming Language :: Python :: 3",
             "License :: OSI Approved :: MIT License",
