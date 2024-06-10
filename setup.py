@@ -11,7 +11,7 @@ if __name__ == "__main__":
         long_description_content_type = "text/x-rst",  # If this causes a warning, upgrade your setuptools package
         long_description = '',
         license = "MIT license",
-        packages = find_packages(),  # Don't include test directory in binary distribution
+        packages = find_packages(exclude=["test"]),  # Don't include test directory in binary distribution
         install_requires = i3ipc,
         classifiers=[
             "Programming Language :: Python :: 3",
