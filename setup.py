@@ -3,7 +3,7 @@ from setuptools import setup
 if __name__ == "__main__":
     setup(
         name = 'examplepackage',
-        version = version,
+        version = 0.1,
         author = 'Simon Heise',
         author_email = '',
         url = 'https://github.com/nomispaz/swayautotile/',
